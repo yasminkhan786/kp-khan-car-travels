@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="K P Khan Car Travels, based in Tenali, Andhra Pradesh. Book local, outstation and all-India car travel.">
+  <meta name="theme-color" content="#101820">
+  <title>K P Khan Car Travels | Travel Across India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#101820;--navy2:#182633;--gold:#e9b44c;--cream:#f7f5ef;--ink:#17212b;--muted:#65717d;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+    .topbar{background:#0b1117;color:#d8e0e7;font-size:13px;padding:9px 0}.topbar .container{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;border-bottom:1px solid #ffffff18}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:.1px}.logo{width:43px;height:43px;border-radius:13px;background:var(--gold);color:var(--navy);display:grid;place-items:center;font-weight:800;font-size:17px}.brand small{display:block;color:#c0cbd3;font:500 11px "DM Sans",sans-serif;letter-spacing:1.5px;text-transform:uppercase}
+    .navlinks{display:flex;align-items:center;gap:25px;font-size:14px;color:#e2e8ed}.navlinks a:hover{color:var(--gold)}.nav-cta,.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 19px;border-radius:8px;font-weight:700;font-size:14px;transition:.2s}.nav-cta,.btn-gold{background:var(--gold);color:var(--navy)}.nav-cta:hover,.btn-gold:hover{background:#f3c86f;transform:translateY(-1px)}
+    .hero{background:linear-gradient(90deg,rgba(8,16,23,.94) 0%,rgba(8,16,23,.78) 48%,rgba(8,16,23,.2) 100%),url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=85") center/cover;min-height:590px;display:flex;align-items:center;color:white}.hero-content{max-width:650px;padding:80px 0}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700}.hero h1{font:800 clamp(39px,6vw,68px)/1.08 Manrope,sans-serif;margin:17px 0}.hero h1 span{color:var(--gold)}.hero p{font-size:18px;color:#e0e6eb;max-width:540px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-outline{border:1px solid #ffffff8a;color:white}.btn-outline:hover{background:#ffffff18}
+    .trustbar{background:white;box-shadow:0 10px 30px #15202b0c}.trustgrid{display:grid;grid-template-columns:repeat(3,1fr);padding:22px 0;gap:20px}.trustitem{display:flex;align-items:center;justify-content:center;gap:12px;text-align:left}.trusticon{width:42px;height:42px;border-radius:12px;background:#fbf1d9;display:grid;place-items:center;font-size:20px}.trustitem strong{display:block;font-size:14px}.trustitem small{color:var(--muted);font-size:12px}
+    section{padding:82px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}.section-head .eyebrow{color:#a8791e}.section-head h2{font:800 clamp(28px,4vw,40px)/1.2 Manrope,sans-serif;margin:10px 0}.section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.service{background:white;padding:25px 22px;border:1px solid #e9e6dd;border-radius:14px}.service .symbol{font-size:27px}.service h3{font:700 17px Manrope,sans-serif;margin:12px 0 6px}.service p{color:var(--muted);font-size:13px;margin:0}
+    .fleet-section{background:#fff}.fleet-note{background:#f7f5ef;border:1px dashed #d8c89f;border-radius:12px;padding:22px;text-align:center;color:#58636d;max-width:800px;margin:auto}.fleet-note strong{color:var(--ink)}
+    .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.why-photo{min-height:390px;border-radius:18px;background:url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85") center/cover}.why-copy h2{font:800 36px/1.2 Manrope,sans-serif;margin:10px 0 16px}.why-copy>p{color:var(--muted)}.checks{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}.check{font-weight:600;font-size:14px}.check span{color:#b17c19;margin-right:8px}
+    .booking-section{background:var(--navy);color:white}.booking-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:start}.booking-copy h2{font:800 38px/1.15 Manrope,sans-serif;margin:12px 0}.booking-copy p{color:#c3cdd5}.booking-copy .contact-line{margin-top:26px;color:var(--gold);font-weight:700}.booking-form{background:white;color:var(--ink);padding:28px;border-radius:16px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:700;color:#46515c}.field input,.field select,.field textarea{font:14px "DM Sans",sans-serif;border:1px solid #dce1e5;border-radius:8px;padding:12px;background:#fff;color:var(--ink);width:100%}.field textarea{min-height:85px;resize:vertical}.booking-form button{border:0;cursor:pointer;font:700 15px "DM Sans",sans-serif;grid-column:1/-1;padding:15px}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.contact-card{background:white;border:1px solid #e9e6dd;border-radius:13px;padding:23px}.contact-card small{color:var(--muted);display:block;margin-bottom:5px}.contact-card strong{font-size:16px}
+    footer{background:#0b1117;color:#c5cdd4;padding:28px 0;font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer-inner strong{color:white}
+    .whatsapp-float{position:fixed;right:20px;bottom:20px;background:#1ebc61;color:white;border-radius:50px;padding:13px 18px;font-weight:700;box-shadow:0 7px 22px #0003;z-index:20}
+    @media(max-width:800px){.navlinks{gap:13px}.navlinks a:not(.nav-cta){display:none}.hero{min-height:540px}.services{grid-template-columns:repeat(2,1fr)}.why-grid,.booking-wrap{grid-template-columns:1fr}.why-photo{min-height:280px}.booking-wrap{gap:25px}}
+    @media(max-width:520px){.topbar .container{justify-content:center}.nav{min-height:67px}.brand{font-size:14px}.logo{width:38px;height:38px}.nav-cta{padding:10px 12px;font-size:12px}.hero{min-height:520px}.hero-content{padding:65px 0}.hero p{font-size:16px}.trustgrid{grid-template-columns:1fr;padding:18px 0}.trustitem{justify-content:flex-start}.services{grid-template-columns:1fr 1fr;gap:10px}.service{padding:18px 14px}.service h3{font-size:15px}section{padding:62px 0}.checks{grid-template-columns:1fr}.booking-form{padding:20px;grid-template-columns:1fr}.field.full,.booking-form button{grid-column:auto}.contact-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>📍 Based in Tenali, Andhra Pradesh</span><span>🚘 Travel services across India</span></div></div>
+  <header><div class="container nav">
+    <a class="brand" href="#home"><span class="logo">KP</span><span>K P Khan Car Travels<small>Travel across India</small></span></a>
+    <nav class="navlinks"><a href="#home">Home</a><a href="#services">Services</a><a href="#fleet">Our Cars</a><a href="#contact">Contact</a><a class="nav-cta" href="#booking">Book a Ride ↗</a></nav>
+  </div></header>
+  <main>
+    <section class="hero" id="home"><div class="container"><div class="hero-content">
+      <div class="eyebrow">Your journey starts here</div>
+      <h1>Travel with comfort.<br><span>Arrive with a smile.</span></h1>
+      <p>Reliable car travel for local trips, outstation journeys and travel across India. Tell us where you're going — we'll help plan your ride.</p>
+      <div class="hero-actions"><a class="btn btn-gold" href="#booking">Book your journey →</a><a class="btn btn-outline" href="https://wa.me/919848660552" target="_blank" rel="noopener">WhatsApp us</a></div>
+    </div></div></section>
+    <div class="trustbar"><div class="container trustgrid">
+      <div class="trustitem"><span class="trusticon">🚗</span><span><strong>Multiple vehicle options</strong><small>Cars for different travel needs</small></span></div>
+      <div class="trustitem"><span class="trusticon">📍</span><span><strong>Based in Tenali</strong><small>Serving trips across India</small></span></div>
+      <div class="trustitem"><span class="trusticon">💬</span><span><strong>Easy WhatsApp enquiry</strong><small>Speak directly about your trip</small></span></div>
+    </div></div>
+    <section id="services"><div class="container">
+      <div class="section-head"><div class="eyebrow">Where can we take you?</div><h2>Travel services for every journey</h2><p>From a short local ride to a long-distance trip, contact us with your travel plan.</p></div>
+      <div class="services">
+        <article class="service"><div class="symbol">🏙️</div><h3>Local Travel</h3><p>City rides and local travel around Tenali and nearby areas.</p></article>
+        <article class="service"><div class="symbol">🛣️</div><h3>Outstation Trips</h3><p>Plan comfortable one-way or round-trip journeys.</p></article>
+        <article class="service"><div class="symbol">✈️</div><h3>Airport Transfers</h3><p>Pickup and drop arrangements for airport travel.</p></article>
+        <article class="service"><div class="symbol">🇮🇳</div><h3>All-India Travel</h3><p>Discuss long-distance and inter-state travel requirements.</p></article>
+      </div>
+    </div></section>
+    <section class="fleet-section" id="fleet"><div class="container">
+      <div class="section-head"><div class="eyebrow">Choose your ride</div><h2>Vehicle options for your trip</h2><p>We coordinate our own vehicles and vehicles from our driver network.</p></div>
+      <div class="fleet-note"><strong>Looking for a specific car?</strong><br>Share your passenger count, luggage needs and destination in the booking form. We'll confirm the available vehicle, trip details and fare before you book.</div>
+    </div></section>
+    <section><div class="container why-grid">
+      <div class="why-photo" role="img" aria-label="Scenic road trip through the mountains"></div>
+      <div class="why-copy"><div class="eyebrow">Why travel with us</div><h2>Your trip matters to us.</h2><p>K P Khan Car Travels is based in Tenali, Andhra Pradesh. We help customers arrange car travel for journeys within the region and to destinations across India.</p>
+        <div class="checks"><div class="check"><span>✓</span>Choice of vehicle options</div><div class="check"><span>✓</span>Trip details discussed clearly</div><div class="check"><span>✓</span>Direct booking enquiries</div><div class="check"><span>✓</span>Local and long-distance trips</div></div>
+      </div>
+    </div></section>
+    <section class="booking-section" id="booking"><div class="container booking-wrap">
+      <div class="booking-copy"><div class="eyebrow">Let's plan your trip</div><h2>Where would you like to go?</h2><p>Fill in your trip details. Your enquiry will open in WhatsApp so you can send it directly to K P Khan Car Travels. Your booking is confirmed only after the fare and availability are agreed.</p><div class="contact-line">WhatsApp / Call: +91 98486 60552</div></div>
+      <form class="booking-form" id="bookingForm">
+        <div class="field"><label for="customer">Your name *</label><input id="customer" required placeholder="Enter your name"></div>
+        <div class="field"><label for="mobile">Your mobile number *</label><input id="mobile" required inputmode="tel" placeholder="Enter your number"></div>
+        <div class="field"><label for="pickup">Pickup location *</label><input id="pickup" required placeholder="e.g. Tenali"></div>
+        <div class="field"><label for="drop">Destination *</label><input id="drop" required placeholder="Where are you going?"></div>
+        <div class="field"><label for="date">Travel date *</label><input id="date" type="date" required></div>
+        <div class="field"><label for="trip">Trip type</label><select id="trip"><option>One way</option><option>Round trip</option><option>Local / hourly</option><option>Airport pickup / drop</option></select></div>
+        <div class="field"><label for="passengers">Passengers</label><select id="passengers"><option>1-3</option><option>4-5</option><option>6-7</option><option>8 or more</option></select></div>
+        <div class="field"><label for="vehicle">Vehicle preference</label><select id="vehicle"><option>Any suitable vehicle</option><option>Hatchback</option><option>Sedan</option><option>SUV / MUV</option><option>Premium / other</option></select></div>
+        <div class="field full"><label for="notes">Additional details</label><textarea id="notes" placeholder="Return date, luggage, preferred vehicle or other requirements"></textarea></div>
+        <button class="btn btn-gold" type="submit">Send booking enquiry on WhatsApp ↗</button>
+      </form>
+    </div></section>
+    <section id="contact"><div class="container">
+      <div class="section-head"><div class="eyebrow">Get in touch</div><h2>Let's get you moving</h2><p>Contact us to check vehicle availability and discuss your journey.</p></div>
+      <div class="contact-grid">
+        <div class="contact-card"><small>Call / WhatsApp</small><strong>+91 98486 60552</strong></div>
+        <div class="contact-card"><small>Business location</small><strong>Tenali, Andhra Pradesh</strong></div>
+        <div class="contact-card"><small>Service coverage</small><strong>Trips across India</strong></div>
+      </div>
+    </div></section>
+  </main>
+  <footer><div class="container footer-inner"><span><strong>K P Khan Car Travels</strong> · Your Journey, Our Responsibility.</span><span>© <span id="year"></span> K P Khan Car Travels. All rights reserved.</span></div></footer>
+  <a class="whatsapp-float" href="https://wa.me/919848660552" target="_blank" rel="noopener">WhatsApp ↗</a>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const dateInput = document.getElementById("date");
+    const today = new Date();
+    dateInput.min = new Date(today.getTime() - today.getTimezoneOffset() * 60000).toISOString().slice(0,10);
+    document.getElementById("bookingForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const value = id => document.getElementById(id).value.trim();
+      const message = [
+        "Hello K P Khan Car Travels, I would like to enquire about a car booking.",
+        "",
+        "Name: " + value("customer"),
+        "Customer mobile: " + value("mobile"),
+        "Pickup: " + value("pickup"),
+        "Destination: " + value("drop"),
+        "Travel date: " + value("date"),
+        "Trip type: " + value("trip"),
+        "Passengers: " + value("passengers"),
+        "Vehicle preference: " + value("vehicle"),
+        "Additional details: " + (value("notes") || "None"),
+        "",
+        "Please share availability and fare details."
+      ].join("\n");
+      window.open("https://wa.me/919848660552?text=" + encodeURIComponent(message), "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
